@@ -2,9 +2,14 @@
   💻<br>Portfólio - Patricia M. Ferreira
 </h1>
 
-![Resultado final do projeto]()
+![Resultado final do projeto](images/print.JPG)
 
-<h4 align="center">Clique para visitar o projeto</h4>
+<h4 align="center">
+  <a href="https://patriciamarpaulino.github.io/PortfolioPatricia/" target="_blank" rel="noopener noreferrer">
+    Visite o Projeto
+  </a>
+</h4>
+
 
 ## 💻 Seções
 
