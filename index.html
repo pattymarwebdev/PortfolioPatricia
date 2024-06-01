@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Patrícia Ferreira</title>
+    <!--CSS FILES-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skins/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!--STYLE SWITCHER-->
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="css/style-switcher.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>Ury</span>yah</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li><a href="#about"><i class="fa fa-user"></i><span>Quem sou</span></a></li>
+                <li><a href="#services"><i class="fa fa-list"></i><span>Serviços</span></a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i><span>Portfolio</span></a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i><span>Contato</span></a></li>
+            </ul>
+            <!--PLAYER DE MUSICA-->
+            <div class="music-player padd-15">
+                <audio id="audio-player" controls autoplay>
+                    <source src="./music/Jo Cohen.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+
+            </div>
+        </div>
+
+        <div class="main-content">
+            <section class="home active section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Olá!<br> meu nome é <span class="name">Patrícia Ferreira</span></h3>
+                            <h3 class="my-profession">I' m a <span class="typing"></span></h3>
+                            <p>Como Programador Front-End, combino habilidades em Web Design, Especialista Digital e
+                                Suporte Remoto para fornecer soluções completas. Garantindo visibilidade e
+                                funcionalidade para projetos online.</p>
+                            <a href="#" class="btn" id="download-cv-btn">Download CV</a>
+                        </div>
+                        <form id="password-form" class="hidden">
+                            <input type="password" id="password-input" placeholder="Digite a senha">
+                            <button type="submit"><i class="fas fa-chevron-down"></i></button>
+                            <button type="button" id="close-btn">X</button>
+                        </form>
+                        <div class="home-img padd-15">
+                            <img src="images/hero.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Quem sou</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I'm Patrícia Ferreira and <span> Developer Front-End</span></h3>
+                                    <p>Profissional versátil com mais de 10 anos de experiência em Especialista
+                                        Digital/WebDesign e recente transição para Desenvolvimento Front-end. Expertise
+                                        em HTML, CSS, JavaScript, React, TypeScript e Node.js, complementada por
+                                        habilidades em Git, Github, Figma e Canva. Destacada atuação em Suporte Técnico
+                                        Remoto, design de páginas online e edição gráfica, promovendo a funcionalidade e
+                                        a estética dos projetos.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Nascimento : <span>Maio/1983</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Idade : <span> 40</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Linkedin : <span>patriciamarciano/</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>E-mail : <span>pattywebdesigner@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Graduação : <span>Cursando FullStack DevClub</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Fone : <span>+55 34 99903-5964</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Cidade : <span>Uberlândia/MG</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Freelancer : <span>Disponível</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#contact" data-section-index="1" class="btn hire-me">Contate -
+                                                me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 86%;"></div>
+                                                <div class="skill-percent">86%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Bootstrap</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:56%;"></div>
+                                                <div class="skill-percent">56%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 96%;"></div>
+                                                <div class="skill-percent">96%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>JS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:66%;"></div>
+                                                <div class="skill-percent">66%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Educação</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>Ago/2022 - Set/2024
+                                                    </h3>
+                                                    <h4 class="timeline-title">FullStack-DevClub</h4>
+                                                    <p class="timeline-text">Curso reconhecido pelo MEC (Ministério da
+                                                        Educação), conferindo diploma de nível superior. Comunidade de
+                                                        desenvolvimento Full Stack Developer, oferecendo formação em
+                                                        conformidade com os padrões e critérios estabelecidos pelo órgão
+                                                        regulador brasileiro para a educação superior. O curso abrange
+                                                        as tecnologias fundamentais para desenvolvimento Full Stack,
+                                                        incluindo HTML5, CSS, Node.js, React, JavaScript, entre outras,
+                                                        além da utilização de Git e GitHub para controle de versão e
+                                                        colaboração em equipe.</p>
+                                                </div>
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>Set/2003 a Maio/2005
+                                                    </h3>
+                                                    <h4 class="timeline-title">WebDesigner-Microcamp Internacional</h4>
+                                                    <p class="timeline-text">O curso de Webdesign na Microcamp
+                                                        Internacional oferece uma abordagem abrangente para desenvolver
+                                                        habilidades em design de sites, abarcando conceitos de layout,
+                                                        usabilidade, e ferramentas como HTML, CSS e Photoshop. Os alunos
+                                                        aprendem a criar interfaces atraentes e funcionais,
+                                                        preparando-os para atuar no mercado de criação web com
+                                                        competência e criatividade.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title">Experiência</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>Maio/2023
+                                                    </h3>
+                                                    <h4 class="timeline-title">Freelancer-Dev Front-end</h4>
+                                                    <p class="timeline-text">Experiência no desenvolvimento de projetos
+                                                        para clientes em geral. Utilizando as
+                                                        linguagens de HTML, CSS e JavaScritpt.Projetos em Portfolio.
+                                                    </p>
+                                                </div>
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>Jan/2019 a Out/2020
+                                                    </h3>
+                                                    <h4 class="timeline-title">Service-Desk - Colégio Nacional</h4>
+                                                    <p class="timeline-text">Gestão eficaz de suporte técnico em duas
+                                                        unidades escolares, incluindo configuração de sistemas e
+                                                        dispositivos. Experiência sólida em administração de eventos
+                                                        escolares e suporte técnico em sala de aula, otimizando a
+                                                        funcionalidade dos equipamentos. Presencial e Remoto</p>
+                                                </div>
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>Jan/2010 a Ago/2017
+                                                    </h3>
+                                                    <h4 class="timeline-title">WebDesigner/Especialista Digital-
+                                                        Conaer.com </h4>
+                                                    <p class="timeline-text">Criação e manutenção de websites,
+                                                        identidade visual, artes gráficas, administração de sites em
+                                                        WordPress/Wix/Magento, emissão de NFs eletrônicas, gestão de
+                                                        redes sociais e suporte e atendimento ao cliente.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="service section" id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Serviços</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Programador Front-end</h4>
+                                <p>Criação de projetos e sites com design elegante, paleta de cores refinada e
+                                    responsividade, visando proporcionar uma experiência marcante e memorável para o
+                                    usuário.</p>
+                            </div>
+                        </div>
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Suporte Remoto</h4>
+                                <p>Suporte remoto abrangente para auxiliar usuários na operação de programas, manutenção
+                                    de computadores, formatação de arquivos e salvamento de dados."</p>
+                            </div>
+                        </div>
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Web Designer</h4>
+                                <p>Designer especializado em plataformas online, criando sites e websites atraentes e
+                                    funcionais para garantir uma experiência de usuário com qualidade.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-4.png" alt="">
+                                    <div class="overlay">
+                                        <h3>Mini jogo Mario</h3>
+                                        <p>Utilize a barra de espaço para pular o cano, se o mario encostar, já era, fim
+                                            da linha.</p>
+                                        <a href="https://patriciamarpaulino.github.io/projeto-mario/"
+                                            target="_blank">Clique aqui!</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-2.jpg" alt="">
+                                    <div class="overlay">
+                                        <h3>Calculadora Elegante</h3>
+                                        <p>Realize cálculos de adição, subtração, multiplicação e divisão com
+                                            facilidade.</p>
+                                        <a href="https://patriciamarpaulino.github.io/Calculadora/"
+                                            target="_blank">Clique aqui!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-8.png" alt="">
+                                    <div class="overlay">
+                                        <h3>Especialista Digital</h3>
+                                        <p>Unindo habilidades em design, tecnologia e suporte para projetos online de
+                                            sucesso.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-3.PNG" alt="">
+                                    <div class="overlay">
+                                        <h3>Sortei um número.</h3>
+                                        <p>Escolhe um número entre 0 e 1000, clique no botão Sortear</p>
+                                        <a href="https://patriciamarpaulino.github.io/Projeto-Sorteador/"
+                                            target="_blank">Clique aqui!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-10.JPG" alt="">
+                                    <div class="overlay">
+                                        <h3>Cartão de visita Elegante</h3>
+                                        <p>Transformando visões em realidade digitalmente."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-7.PNG" alt="">
+                                    <div class="overlay">
+                                        <h3>Procure o contato.</h3>
+                                        <p>Busque o contato acima.</p>
+                                        <a href="https://patriciamarpaulino.github.io/Buscador-de-contatos/"
+                                            target="_blank">Clique aqui!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-1.jpg" alt="">
+                                    <div class="overlay">
+                                        <h3>Tela de cadastro</h3>
+                                        <p>cadastro de dízimos e ofertas.</p>
+                                        <a href="https://patriciamarpaulino.github.io/app-dizimos-ofertas/"
+                                            target="_blank">Clique aqui!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-5.jpg" alt="">
+                                    <div class="overlay">
+                                        <h3>Gere sua senha.</h3>
+                                        <p>As senhas geradas são totalmente aleatórias .</p>
+                                        <a href="https://patriciamarpaulino.github.io/Gerador-de-senha/"
+                                            target="_blank">Clique aqui!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-6.png" alt="">
+                                    <div class="overlay">
+                                        <h3>Conversor de moeda</h3>
+                                        <p>Converta agora.</p>
+                                        <a href="https://patriciamarpaulino.github.io/Projeto_conversor-de-moeda/"
+                                            target="_blank">Clique aqui!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-12.JPG" alt="">
+                                    <div class="overlay">
+                                        <h3>Pro Master</h3>
+                                        <p>especializado em construção de sites em plataformas online.</p>
+                                        <a href="https://insufilmstriangulo.wixsite.com/isulfilms-triangulo"
+                                            target="_blank">Clique aqui!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-14.JPG" alt="">
+                                    <div class="overlay">
+                                        <h3>Suporte Remoto</h3>
+                                        <p>Suporte remoto profissional e personalizado para solucionar suas demandas com
+                                            eficiência."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-13.JPG" alt="">
+                                    <div class="overlay">
+                                        <h3>Artes Gráficas</h3>
+                                        <p>Artes gráficas cativantes e envolventes para destacar sua marca.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contate - Me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Você tem alguma dúvida?</h3>
+                    <h4 class="contact-sub-title padd-15">ESTOU A DISPOSIÇÃO.</h4>
+                    <div class="row">
+
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><a href="https://api.whatsapp.com/send?phone=5534999035964"
+                                    target="_blank"><i class="fa-regular fa-comment-dots"></i></a></div>
+                            <h4>Meu contato</h4>
+                            <p>+55 3499903-5964</p>
+                        </div>
+
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><a href="https://maps.app.goo.gl/7HWFwU83gGX5sjx77" target="_blank"><i
+                                        class="fa-regular fa-map"></i></a></div>
+                            <h4>Office</h4>
+                            <p>Uberlândia/MG</p>
+                        </div>
+
+                        <div class="contact-info-item padd-15">
+
+                            <div class="icon"><a href="mailto:pattywebdesigner@gmail.com" target="_blank"><i
+                                        class="fa-regular fa-envelope"></i></a></div>
+                            <h4>E-mail</h4>
+                            <p>pattywebdesigner@gmail.com</p>
+                        </div>
+
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><a href="https://www.linkedin.com/in/patriciamarciano/" target="_blank"><i
+                                        class="fab fa-linkedin-in"></i></a></div>
+                            <h4>Linkedin</h4>
+                            <p>/patriciamarciano</p>
+                        </div>
+
+                    </div>
+                    <h3 class="contact-title padd-15">Envie - me um E-mail</h3>
+                    <h4 class="contact-sub-title padd-15">FAREI O POSSIVEL PARA RESPONDER PRONTAMENTE</h4>
+
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="nameInput" placeholder="Nome">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="emailInput" placeholder="E-mail">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="objectiveInput"
+                                            placeholder="Assunto">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" class="form-control" id="messageInput"
+                                            placeholder="Mensagem"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <button id="sendEmailButton" type="submit" class="btn">Enviar Mensagem</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+
+    <!--JS FILES-->
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+        integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+</body>
+
+</html>
